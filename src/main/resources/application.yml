@@ -9,9 +9,6 @@ management:
       exposure:
         include: "*"
         exclude: "env,beans"
-
-
-
 ---
 spring:
   datasource:
@@ -31,7 +28,6 @@ spring:
       on-profile: dev
 test:
   message: "Hellow World"
-
 ---
 spring:
   datasource:
@@ -51,7 +47,6 @@ spring:
       on-profile: Production
 test:
   message: "Hellow World"
-
 ---
 spring:
   datasource:
@@ -69,5 +64,5 @@ spring:
   config:
     activate:
       on-profile: QA
-#test:
-#  message: "Hellow World"
+test:
+  message: "Hellow World"
