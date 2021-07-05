@@ -12,8 +12,6 @@ import static java.util.Arrays.stream;
 public class UserPrincipal implements UserDetails {
 
     private User user;
-//    @Autowired
-//    private UserPrincipal userPrincipal;
 
     public UserPrincipal(User user1) {
         this.user = user1;

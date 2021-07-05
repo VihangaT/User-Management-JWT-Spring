@@ -9,6 +9,8 @@ management:
       exposure:
         include: "*"
         exclude: "env,beans"
+JWT:
+  secret: "ThisIStheSecret"
 ---
 spring:
   datasource:
